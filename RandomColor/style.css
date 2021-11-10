@@ -1,0 +1,29 @@
+*{margin:0; padding: 0; box-sizing: border-box;}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffff;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 20px;
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+}
+
+#text{
+    font: 125%  'Poppins',san-serif;
+}
+#btn{
+    font: 100%  'Poppins',san-serif;
+    margin: 10px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
